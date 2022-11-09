@@ -1,0 +1,156 @@
+
+*{
+    text-decoration:none;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+    width:100%;
+    justify-content: space-between;
+    align-content: space-around;
+    align-content: center;
+}
+
+.header .header__logo{
+
+        max-height: 80px;
+        padding: 10px;
+
+}
+
+.header .button{
+    margin: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    max-height: 30px;
+    background-color:#c05326;
+    color:white ;
+    border: 70px;
+    border-radius: 20px;
+    width: 100px;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+
+.header ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.header ul li{
+    padding: 10px;
+}
+
+.header ul li a{
+font-family: Arial;
+font-weight: bolder;
+color: black;
+
+}
+.alert {
+    background-color: #f7eae4;
+    color: black; 
+    border-style:  solid ;
+    height: 50px;
+    width: 600;
+    border-left: 10px solid #c05326;
+    
+
+}
+.alert p{
+    transform: translateY(4px);
+}
+
+.hero{
+    background-image: url(../img/header-bike.jpg);
+    height: 300px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 75px 0 0 10px;
+
+
+
+}
+
+
+  p.for{
+    color:white;
+}
+
+h1{
+    color: white;
+}
+button.sumbit{
+    background-color: brown;
+    color:white;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 20px;
+    
+}   
+
+button.volunteer{
+    background-color:white;
+    color:black;
+    border-radius: 3px;
+    padding: 12px;
+   
+}
+
+.content{
+    display: flex;
+    border-bottom: 2px solid black;
+    
+}
+
+.main{
+    width:60%;
+    
+    
+}
+.sidebar{
+    width:40%;
+    margin: 20px;
+}
+
+
+div.sidebar section div.article{
+    display: flex;
+    margin:10px
+    
+}
+    
+.article__thumbnail{
+    margin: 10px;
+    float: center;
+}
+
+
+.article{
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+span{
+    text-align: right;
+    
+}
+div#art{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+div.footer__content{
+    text-align: center;
+}
+h2.heading-underline{
+    border-bottom: 1px solid black;
+    
+}
